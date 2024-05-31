@@ -1,9 +1,15 @@
-import SelectCountry from "@/app/_components/SelectCountry";
+/* eslint-disable @next/next/no-img-element */
+import SelectCountry from '@/app/_components/SelectCountry';
+// import Image from 'next/image';
+
+export const metadata = {
+  title: 'Update profile',
+};
 
 export default function Page() {
   // CHANGE
-  const countryFlag = "pt.jpg";
-  const nationality = "portugal";
+  const countryFlag = 'pt.jpg';
+  const nationality = 'portugal';
 
   return (
     <div>
